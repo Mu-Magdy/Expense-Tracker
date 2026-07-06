@@ -172,6 +172,3 @@ uv run alembic revision --autogenerate -m "description"
 uv run alembic downgrade -1
 ```
 
-## License
-
-Private / unlicensed — update as needed.
