@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     )
     openai_api_key: str = Field("", alias="OPENAI_API_KEY")
     model_name: str = Field("gpt-4o-mini", alias="MODEL_NAME")
+    whisper_model: str = Field("whisper-1", alias="WHISPER_MODEL")
 
 
 @lru_cache
